@@ -27,6 +27,7 @@ apply plugin: 'com.github.ben-manes.versions'
 apply from: "$rootProject.rootDir/gradle/publish-maven-central.gradle"
 
 android {
+    namespace "com.github.piasy.biv"
     compileSdkVersion rootProject.ext.androidCompileSdkVersion
 
     defaultConfig {

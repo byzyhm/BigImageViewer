@@ -33,15 +33,15 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.0'
-        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.7.21"
+        classpath 'com.android.tools.build:gradle:8.3.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.24"
 
         // ./gradlew dependencyUpdates
-        classpath 'com.github.ben-manes:gradle-versions-plugin:0.44.0'
+        classpath 'com.github.ben-manes:gradle-versions-plugin:0.51.0'
 
         // ./gradlew publishReleasePublicationToSonatypeRepository
         // ./gradlew closeAndReleaseRepository
-        classpath 'org.jetbrains.dokka:dokka-gradle-plugin:1.7.20'
+        classpath 'org.jetbrains.dokka:dokka-gradle-plugin:1.9.20'
         classpath 'io.codearte.gradle.nexus:gradle-nexus-staging-plugin:0.30.0'
     }
 }
